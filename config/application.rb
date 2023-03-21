@@ -22,6 +22,7 @@ module GraphqlRubyOrgTest
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
+    config.hosts << "f31b-201-17-116-58.sa.ngrok.io"
 
     # Configuration for the application, engines, and railties goes here.
     #
